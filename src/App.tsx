@@ -8,10 +8,10 @@ import LoginPage from './components/Auth/LoginPage';
 import SignupPage from './components/Auth/SignupPage';
 import HomePage from './components/Home/HomePage';
 import ProfilePage from './components/Profile/ProfilePage';
-import PackagesPage from './components/Pages/PackagesPage';
-import RidesPage from './components/Pages/RidesPage';
-import AboutPage from './components/Pages/AboutPage';
-import ContactPage from './components/Pages/ContactPage';
+import PackagesPage from './components/pages/PackagesPage';
+import RidesPage from './components/pages/RidesPage';
+import AboutPage from './components/pages/AboutPage';
+import ContactPage from './components/pages/ContactPage';
 
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { isAuthenticated } = useAuth();
